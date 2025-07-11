@@ -1,0 +1,19 @@
+{
+  "name": "node-project",
+  "version": "1.0.0",
+  "description": "# Objectives : Useing this code retriving the system information (Uptime and cpu load).",
+  "main": "server.js",
+  "dependencies": {
+    "events": "^3.3.0",
+    "express": "^5.1.0",
+    "os-utils": "0.0.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

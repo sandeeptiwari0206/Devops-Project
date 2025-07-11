@@ -1,6 +1,6 @@
 # Title: Node Project
 
-# Objectives : Useing this code retriving the system information (Uptime and cpu load).
+# Objectives : Using this code retriving the system information (Uptime and cpu load).
 
 # Requirements : 
 
