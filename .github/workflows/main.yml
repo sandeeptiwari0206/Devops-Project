@@ -51,8 +51,8 @@ jobs:
           docker build -t ${{ secrets.DOCKERHUB_REPO }}/nodeproject:${TAG} .
           docker push ${{ secrets.DOCKERHUB_REPO }}/nodeproject:${TAG}
 
-      # Step 8: Deployment
-      - name: SSH into local server using password
-        run: |
-          # Install sshpass to handle password-based SSH login
-        docker run -d -p 3000:3000 --name NodeProject $(DOCKERHUB_REPO)/nodeproject:${TAG}
+#      # Step 8: Deployment
+#      - name: SSH into local server using password
+#        run: |
+#          # Install sshpass to handle password-based SSH login
+#        docker run -d -p 3000:3000 --name NodeProject $(DOCKERHUB_REPO)/nodeproject:${TAG}
